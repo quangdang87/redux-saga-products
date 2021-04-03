@@ -1,7 +1,7 @@
 import {take, select, call} from "redux-saga/effects";
 import {getCart} from "../reducers/index";
-import {api} from "../../services";
-import * as actions from "../../actions/cart";
+import {api} from "../services";
+import * as actions from "../actions/cart";
 
 export function* checkout() {
   while (true) {
